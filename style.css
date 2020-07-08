@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins","Roboto", sans-serif;
+    
+}
+header{
+    background-color:#F0FFF0 ;
+}
+/* this is the navbars work */
+.logo-edit{
+    width: 250px;
+    padding-top: 10px;
+}
+#manu-bar ul li a{
+    color: black;
+    font-weight: 400;
+}
+#manu-bar ul li a:hover {
+    background-color: #21b573;
+    border-radius: 15px;
+    color: white;
+   
+}
+/* this is the header second part */
+header h1 {
+    font-weight: 700;
+    font-size: 48px;
+    margin: 20px 0;
+}
+header h6 span {
+    color: #fd511a;
+    font-weight: 400;
+}
+header h1 span{
+    color:#21B582 ;
+}
+header p{
+    font-weight: 300;
+    color:gray;
+}
+.edit-button{
+    background-color: #21b573;
+    border: none;
+    width: 140px;
+    height: 42px;
+    border-radius: 20px;
+    color: white;
+}
+/* this is the main /section part 1 */
+.boder-area{
+    background-color:#f3fcf3 ;
+    padding: 30px 10px;
+    
+}
+.boder-area:hover{
+    box-shadow: 10px 10px 8px whitesmoke;
+    background-color:white;
+    cursor: pointer;
+}
+/* this is the main /section part 2 */
+.online h1{
+    font-weight: 600;
+    
+}
+.re-size img{
+    width: 18px;
+    height: 20px;
+}
+.card{
+    border: none;
+    box-shadow: 7px 7px 9px lightgray;
+}
+/* this is the main /section part 3 */
+.man img{
+    width:200px ;
+    margin: 0 50px;
+   
+}
+/* this is the footer */
+.footer-area{
+    background-color: #343A40;
+    color: white;
+    height: auto
+    
+}
+ul{
+    list-style-type: none;
+    padding-top: 15px;
+    
+}
+li{
+    padding: 4px;
+    font-weight: 200;
+}
+.footer-area h5{
+    font-size: 25px;
+    color: green;
+}
+.hover-iteam ul li:hover{
+    color: green;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.last-bar{
+    padding: 55px 0 10px 0;
+    font-size: 300;
+}
+
+
+
