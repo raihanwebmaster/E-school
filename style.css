@@ -71,12 +71,26 @@ header p{
 .card{
     border: none;
     box-shadow: 7px 7px 9px lightgray;
+    border-radius: 10px;
 }
 /* this is the main /section part 3 */
 .man img{
     width:200px ;
     margin: 0 50px;
    
+}
+/* this is the main /section part 4 */
+.media img{
+    width:90% ;
+}
+.media img{
+    transition: 3s;
+}
+.media img:hover{
+    width: 70%;
+}
+.login-area h1 span{
+    color: green;
 }
 /* this is the footer */
 .footer-area{
@@ -107,7 +121,9 @@ li{
 .last-bar{
     padding: 55px 0 10px 0;
     font-size: 300;
+    
 }
+
 
 
 
